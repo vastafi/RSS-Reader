@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: android.arch.persistence.room:testing:1.1.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/testing-1.1.1.aar/a75dbdabd4996448dceef2ce76a73d75/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af848b473df9b074d9be10c1bfe53c76/testing-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/956840e641fd7888a1507f641354cbe7/testing-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bc524c5913ed28c2b9562cf5acda1c2c/transformed/testing-1.1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bc524c5913ed28c2b9562cf5acda1c2c/transformed/testing-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bc524c5913ed28c2b9562cf5acda1c2c/transformed/testing-1.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/testing/1.1.1/8a9c71c766cd463b6cb9fc67d373b34b3d8051cf/testing-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
