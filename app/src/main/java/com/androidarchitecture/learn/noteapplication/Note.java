@@ -30,7 +30,4 @@ public class Note {
         this.id = id;
         this.mNote = note;
     }
-
-
-
 }

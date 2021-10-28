@@ -17,7 +17,6 @@ import com.androidarchitecture.learn.noteapplication.R;
 
 public class BrowserActivity extends AppCompatActivity {
 
-
     WebView webView;
     String url;
 

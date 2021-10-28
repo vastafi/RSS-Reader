@@ -13,10 +13,7 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
-
-
 import com.androidarchitecture.learn.noteapplication.R;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -26,7 +23,6 @@ import java.util.List;
 import java.util.Locale;
 
 public class RSSFeedActivity extends ListActivity {
-
 
     private ProgressBar pDialog;
     ArrayList<HashMap<String, String>> rssItemList = new ArrayList<>();
@@ -110,7 +106,6 @@ public class RSSFeedActivity extends ListActivity {
                     e.printStackTrace();
 
                 }
-
 
                 map.put(TAG_TITLE, item.title);
                 map.put(TAG_LINK, item.link);

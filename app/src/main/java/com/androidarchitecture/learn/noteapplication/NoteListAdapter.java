@@ -1,6 +1,5 @@
 package com.androidarchitecture.learn.noteapplication;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -9,12 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.ListAdapter;
 import android.widget.TextView;
-
 import com.androidarchitecture.learn.noteapplication.RSS.RSSFeedActivity;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class NoteListAdapter extends RecyclerView.Adapter<NoteListAdapter.NoteViewHolder> {
@@ -89,7 +84,6 @@ public class NoteListAdapter extends RecyclerView.Adapter<NoteListAdapter.NoteVi
                     mContext.startActivity(new Intent(mContext, RSSFeedActivity.class).putExtra("rssLink", mNotes.get(mPosition).getNote()));
                 }
             });
-
 
             imgDelete.setOnClickListener(new View.OnClickListener() {
                 @Override

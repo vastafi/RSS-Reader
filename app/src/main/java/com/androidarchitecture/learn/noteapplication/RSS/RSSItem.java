@@ -1,6 +1,5 @@
 package com.androidarchitecture.learn.noteapplication.RSS;
 
-
 public class RSSItem {
 
     public String title;
